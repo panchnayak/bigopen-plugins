@@ -1,0 +1,5 @@
+plugin/marketplace-0.1.0.umd.min.1.js
+plugin/marketplace-0.1.0.umd.min.1.js.map
+plugin/marketplace-0.1.0.umd.min.js
+plugin/marketplace-0.1.0.umd.min.js.map
+plugin/package.json
