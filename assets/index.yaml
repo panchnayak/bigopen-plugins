@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  marketplace:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-02-06T22:24:55.409009289Z"
+    description: BigOpenCloud Marketplace
+    digest: f588d492bb9374c2a6197adbfcd3596f7ef97ac35a8c09101c8d99f4e1bcfa6c
+    icon: https://raw.githubusercontent.com/panchnayak/marketplace-plugin/main/pkg/top-level-product/home.svg
+    name: marketplace
+    type: application
+    urls:
+    - assets/marketplace/marketplace-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-02-06T22:24:55.408291508Z"

@@ -1,18 +1,18 @@
 module.exports = {
-    env: {
-      test: {
-        plugins: [
-          [
-            'module-resolver',
-            {
-              root:  ['.'],
-              alias: {
-                '@': '.',
-                '~': '.',
-              },
+  env: {
+    test: {
+      plugins: [
+        [
+          'module-resolver',
+          {
+            root:  ['.'],
+            alias: {
+              '@': '.',
+              '~': '.',
             },
-          ],
+          },
         ],
-      },
+      ],
     },
-  };
+  },
+};
